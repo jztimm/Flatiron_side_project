@@ -7,7 +7,7 @@ A `recipe` has a description
 `Recipe#name` returns the name of the recipe
 `Recipe#description` returns the description for the recipe
 The name of the recipe `#cannot#` be changed
-The description of the `recipe` can be updated
+The description of the `recipe` `can` be updated
 `Recipe.all` returns a list of all of the recipes that have been created
 
 Build a Restaurant Class:
