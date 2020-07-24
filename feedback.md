@@ -15,7 +15,7 @@ The `Recipe.all` & `Restaurant.all` methods call upon all instances that have be
 # - A Restaurant has many Recipes
 # - A Recipe belongs to a Restaurant
 # - Restaurant#recipes should return a list of all the recipes that belong to that restaurant
-- Recipe#restaurant should return the restaurant that that recipe belongs to
-- Restaurant.highest_rated returns the restaurant with the highest rating
-- Restaurant.find_by_name receives an argument of `name` as a string and returns the restaurant with that name
-- Restaurant#recipe_previews returns a list of strings containing the first 14 characters of a recipe's description
+# - Recipe#restaurant should return the restaurant that that recipe belongs to
+# - Restaurant.highest_rated returns the restaurant with the highest rating
+# - Restaurant.find_by_name receives an argument of `name` as a string and returns the restaurant with that name
+# - Restaurant#recipe_previews returns a list of strings containing the first 14 characters of a recipe's description
