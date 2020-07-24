@@ -2,12 +2,12 @@ require 'pry'
 
 class Recipe
 
-    attr_reader :name
-    attr_accessor :description, :restaurant 
+    attr_reader :name, :restaurant
+    attr_accessor :description
     @@all = []
     def initialize(name, description, restaurant)
-        @name = name                # name = (str)
-        @description = description  # description = (str)
+        @name = name
+        @description = description
         @restaurant = restaurant
         @@all << self
     end
@@ -18,14 +18,6 @@ class Recipe
 
 end
 
-
-# r1 = Recipe.new("Cookies", "Home made cookies")
-
-
-# Recipe.all
-
-#[ @name= "Cookies",
-# @description= "Home made cookies"]
 
 
 

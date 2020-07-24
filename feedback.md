@@ -12,9 +12,9 @@ The difference between `self` on line 11 and `self` on line 14 is that `self` on
 The `Recipe.all` & `Restaurant.all` methods call upon all instances that have been created and returns the values as an array.
 
 ## Next Steps
-- A Restaurant has many Recipes
-- A Recipe belongs to a Restaurant
-- Restaurant#recipes should return a list of all the recipes that belong to that restaurant
+# - A Restaurant has many Recipes
+# - A Recipe belongs to a Restaurant
+# - Restaurant#recipes should return a list of all the recipes that belong to that restaurant
 - Recipe#restaurant should return the restaurant that that recipe belongs to
 - Restaurant.highest_rated returns the restaurant with the highest rating
 - Restaurant.find_by_name receives an argument of `name` as a string and returns the restaurant with that name
