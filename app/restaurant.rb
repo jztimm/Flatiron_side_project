@@ -2,7 +2,7 @@ require 'pry'
 
 class Restaurant
 
-    attr_accessor :name, :description
+    attr_accessor :name, :star_rating
     @@all = []
     def initialize(name, star_rating)
         @name = name                    # name = (str)
@@ -13,6 +13,7 @@ class Restaurant
     def self.all
         @@all
     end
+
 
 end
 

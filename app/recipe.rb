@@ -3,11 +3,12 @@ require 'pry'
 class Recipe
 
     attr_reader :name
-    attr_accessor :description
+    attr_accessor :description, :restaurant 
     @@all = []
-    def initialize(name, description)
+    def initialize(name, description, restaurant)
         @name = name                # name = (str)
         @description = description  # description = (str)
+        @restaurant = restaurant
         @@all << self
     end
 

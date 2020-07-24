@@ -4,7 +4,12 @@
 ## Questions
 
 - What is the difference between `self` on line 11 and `self` on line 14 in `recipe.rb`?
+
+The difference between `self` on line 11 and `self` on line 14 is that `self` on line 11 stores each new instance of `recipe`. And `self` on line 14 is able to call upon those instances and see what's been created.
+
 - What is the purpose of the `Recipe.all` and `Restaurant.all` methods?
+
+The `Recipe.all` & `Restaurant.all` methods call upon all instances that have been created and returns the values as an array.
 
 ## Next Steps
 - A Restaurant has many Recipes
