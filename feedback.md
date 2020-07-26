@@ -6,6 +6,8 @@ The difference between `self` on line 11 and `self` on line 14 is that `self` on
 
 _Your answer here is not correct. `self` will always return an object. It will either return the Class object or the instance object, but always an object. So, on line 11, because `initialize` is an instance method, `self` will return an instance. On line 14, because `self` is being used inside of the class to define a new method, `self` will be the Class_
 
+So I understand where you're coming from when you say `self` will always return an object. I think I may have misunderstood the question.
+
 - What is the purpose of the `Recipe.all` and `Restaurant.all` methods?
 
 The `Recipe.all` & `Restaurant.all` methods call upon all instances that have been created and returns the values as an array.
